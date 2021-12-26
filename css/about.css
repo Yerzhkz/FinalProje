@@ -1,0 +1,12 @@
+.about-content{
+    background-color: white;
+    padding: 3rem;
+}
+.about-text .social-links a{
+    color:rgb(0,0,0) ;
+    border: 0.01rem solid rgba(0,0,0,0.4);
+}
+.about-text .social-links a:hover{
+	color:  #ffffff;
+	background-color: #24262b;
+}

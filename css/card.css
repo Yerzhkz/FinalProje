@@ -1,0 +1,16 @@
+header{
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)), url(/images/banner-bg.jpg) center/cover no-repeat fixed;
+}
+.about-content{
+    position: relative;
+}
+.title span{
+    position: absolute;
+    right: 0;
+    top:0;
+}
+@media screen and (max-width: 768px){
+    .title{
+        position: relative;
+    }
+}
