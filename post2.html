@@ -1,0 +1,255 @@
+
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Art.Design Blog</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Font awesome icon -->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <!--Vue CDN-->
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+     <!--Bootstrap-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+<!-- Box icons -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css" />
+<link rel="stylesheet" href="/css/about.css">
+<link
+    href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css"
+    rel="stylesheet">
+  </head>
+  <body>
+
+    <!-- header -->
+    <header>
+      <nav class = "navbar ">
+        <div class = "container">
+
+          <a href = "index.html" class = "navbar-brand logo">Art.Design</a>
+          
+          <div class="menu">
+            <div class="top-nav">
+              <a href = "index.html" class = "navbar-brand">Art.Design</a>
+              <div class="close">
+                <i class="bx bx-x"></i>
+              </div>
+            </div>
+  
+            
+            
+            <ul class="nav">
+              <li class="nav-item">
+                <a class="nav-link" href="/index.html">home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="/about.html">about</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="/feedback.html">get post</a>
+              </li>
+            </ul>
+            
+          </div>
+          
+          <div class="hamburger">
+            <i class="bx bx-menu"></i>
+          </div>
+        </div>
+      </nav>
+    <!-- about -->
+    <div class="container">
+        <div class="post">
+        <h1 class="heading-1">the light star</h1>
+        <div class="sub-heading">
+          <p>Saterday, <span> <i>june 26, 2021</i> </span></p>
+        </div>
+        <hr>
+    
+        <div class="main">
+            <div class="home">
+                <div class="left">
+                <img src="/images/blog-p-2.jpg" class="home-img" alt="Paper photo">
+                
+                </div>
+    
+                <div class="right">
+                <h3 class="heading-3">latest posts</h3>
+                <div class="lists">
+                    <table class="table">
+                        <tr>
+                            <td><img src="/images/art-design-1.jpg" alt="photo 2"></td>
+                            <td> <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio, veritatis!</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><img src="/images/art-design-2.jpg" alt="photo 2"></td>
+                            <td> <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio, veritatis!</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><img src="/images/art-design-3.jpg" alt="photo 2"></td>
+                            <td> <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio, veritatis!</p>
+                            </td>
+                        </tr>
+                        
+                    </table>
+                </div>
+            </div>
+          </div>
+          <h2 class="heading-2">
+            <p>   Lorem ipsum dolor sit amet consectetur adipisicing elit cupiditate possimus.
+         </p>
+            </h2>
+          <div class="article">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos suscipit labore nihil voluptatum recusandae facere dicta veritatis iusto tempore, debitis officia qui nostrum repellendus autem numquam obcaecati sunt itaque in repudiandae expedita omnis saepe modi explicabo error! Sunt quaerat vitae omnis eaque culpa nihil sequi velit ullam fugiat, cupiditate atque quasi eum obcaecati, cumque officiis iure ipsam! Inventore voluptate dignissimos nemo! In exercitationem rerum sunt quo maxime consequatur ab accusamus explicabo voluptatem ratione. Eveniet hic, quibusdam repellendus illum quas provident corrupti dolores assumenda quis explicabo rerum reiciendis, tempore expedita iure ab numquam, facilis officia pariatur veritatis iste mollitia quam neque.</p>
+           <!--Tailwind lbry-->
+            <div class="slider flex w-full p-0 m-0 items-center bg-white truncate" >
+                <div class="slider-content image-slider w-full h-4/5 items-center  flex">
+                  <span class="slider-span " id="slider-span1"></span>
+                  <span class="slider-span" id="slider-span2"></span>
+                  <span class="slider-span " id="slider-span3"></span>
+                  <span class="slider-span " id="slider-span4"></span>
+
+                  <div class="image-slider slide-div w-full h-3/6 items-center  absolute inset-x-0 flex justify-center duration-700">
+                    <div class=" slide flex items-center justify-center mx-4  my-0" id="slide-1">
+                      <img src="/images/art-design-1.jpg" alt="" class="img relative w-40 h-40 duration-500 saturate-10" id="img1">
+                      <a href="#slider-span1" class="button absolute h-40 w-40 duration-500 " id="button-1"></a>
+                    </div>
+                    <div class="slide flex items-center justify-center mx-4  my-0" id="slide-2">
+                      <img src="/images/art-design-2.jpg" alt="" class="img relative w-40 h-40 duration-500 saturate-10" id="img2">
+                      <a href="#slider-span2" class="button absolute h-40 w-40 duration-500 " id="button-2"></a>
+                    </div>
+                    <div class="slide flex items-center justify-center mx-4  my-0" id="slide-3">
+                      <img src="/images/art-design-3.jpg" alt="" class="img  relative w-40 h-40 duration-500 saturate-10" id="img3">
+                      <a href="#slider-span3" class="button absolute h-40 w-40 duration-500 " id="button-3"></a>
+                    </div>
+                    <div class="slide flex items-center justify-center mx-4 my-0" id="slide-4">
+                      <img src="/images/art-design-4.jpg" alt="" class="img  relative w-40 h-40 duration-500 saturate-10" id="img4">
+                      <a href="#slider-span4" class="button absolute h-40 w-40 duration-500 " id="button-4"></a>
+                    </div>
+                  </div>
+                  
+                  
+                </div>
+              </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente sint assumenda, alias blanditiis tempora quae, ea necessitatibus magnam velit culpa expedita optio voluptatem. Ad tenetur iure quisquam inventore! In sunt error quis magni quibusdam quos alias id odio eius eum, nostrum odit voluptates iste delectus harum labore nulla est quo?</p>
+    
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam aliquid molestiae, dolore cupiditate iusto cumque et sit praesentium magni fuga! Saepe neque rerum, illo possimus quasi ipsum nostrum sapiente sequi harum asperiores unde pariatur officia magni tempore, ipsa molestias odit eligendi aspernatur sunt soluta dolores suscipit? Modi consectetur porro similique. Eaque magnam quae doloribus voluptates pariatur nulla beatae non tempore nisi, explicabo sequi. Quisquam blanditiis aliquam optio culpa! Placeat fugiat a aliquid fuga accusamus non minus reiciendis quia delectus! Maxime, facere laborum, reprehenderit aut obcaecati cumque cupiditate quam a ex consectetur velit ipsa? Repellat dolor voluptate esse, placeat eius veniam quae atque sapiente sunt autem. Quod ea ducimus illo voluptatum eveniet in assumenda voluptates veritatis numquam magnam consequuntur sunt explicabo, harum dolorum nostrum laborum fugiat velit! Perferendis consectetur totam voluptatem commodi sapiente quas? Modi voluptas laborum officia atque consequuntur quos ipsum incidunt vero corrupti fuga maiores, enim at ex dolores!</p>
+          </div>
+         
+          <div class="comment">
+            <p class="heading-1">Leave comment</p>
+            <label for="ch">
+              <input type="checkbox" name="ch" id="ch">Send my response.
+            </label>
+            <div class="email">
+              Email: <input  type="email" class="inputbox" name="name" placeholder="Email" />
+            </div>
+            <textarea name="textarea" id="" cols="50" rows="3" placeholder="Comment place..."></textarea>
+            <button type="submit" class="buttonsend">Send</button>
+	  
+          </div>
+        </div>
+        </div>
+      
+    
+      </div>
+    </div>
+    <!-- end of about -->
+    <footer class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="footer-col">
+              <h4>company</h4>
+              <ol>
+                <li><a href="#">about us</a></li>
+                <li><a href="#">our services</a></li>
+                <li><a href="#">privacy policy</a></li>
+                <li><a href="#">affiliate program</a></li>
+              </ol>
+            </div>
+            
+            <div class="footer-col">
+              <h4>follow us</h4>
+              <div class="social-links">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+     </footer>
+
+    <script src="js/index.js"></script>
+    <script src="js/app.js"></script>
+    <style> 
+          .slider{
+              height: 30rem;
+          }
+        .button{
+          background-color: rgba(0,0,0,0.4);
+        }
+        .button:hover{
+          background-color: rgba(0,0,0,0.2);
+        }
+        #slider-span1:target ~ .image-slider #img1,
+        #slider-span1:target ~ .image-slider #button-1{
+          width: 20rem;
+          height: 20rem;
+          background-color: transparent;
+        }
+        #slider-span2:target ~ .image-slider #img2,
+        #slider-span2:target ~ .image-slider #button-2{
+          width: 20rem;
+          height: 20rem;
+          background-color: transparent;
+        }
+        #slider-span3:target ~ .image-slider #img3,
+        #slider-span3:target ~ .image-slider #button-3{
+          width: 20rem;
+          height: 20rem;
+          background-color: transparent;
+        }
+        #slider-span4:target ~ .image-slider #img4,
+        #slider-span4:target ~ .image-slider #button-4{
+          width: 20rem;
+          height: 20rem;
+          background-color: transparent;
+        }
+        @media (max-width: 950px) {
+
+    .slider,
+    .slider-content,
+    .image-slider
+    {
+        flex-direction: column;
+    }
+    .slide{
+        margin: 0 3rem;
+    }
+    .image-slider {
+        margin: 2rem 0;
+        justify-content: space-between;
+    }
+
+  .slider{
+      height: 60rem;
+  }
+    
+    
+  
+    
+  }
+  
+       
+  
+      </style>
+  </body>
+</html>
+
+
